@@ -1,0 +1,35 @@
+# ==========================================
+# 1. OS & IDE Configurations
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+*.log
+
+# ==========================================
+# 2. Backend: Java & Maven Build Artifacts
+# ==========================================
+backend/target/
+backend/*.class
+backend/*.jar
+backend/*.war
+backend/application-local.properties
+
+# ==========================================
+# 3. Backend: Media Pipeline Temp Files
+# ==========================================
+backend/*.mp4
+backend/*.wav
+backend/*.jpg
+backend/*.jpeg
+backend/*.png
+backend/*.description
+backend/verifier_media/
+/tmp/verifier_media/
+
